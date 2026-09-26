@@ -19,7 +19,10 @@ from agno.tools.yfinance import YFinanceTools
 
 def build_agent():
     return Agent(
-        model=Groq(id="qwen/qwen3.8-27b"),
+        model=Groq(
+            id="qwen/qwen3.8-27b",
+            max_tokens=900
+        ),
         tools=[
             YFinanceTools(),
             DuckDuckGoTools()
