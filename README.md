@@ -113,6 +113,6 @@ This project demonstrates how an AI agent can combine a large language model wit
 
 ## Author
 
-# Arisha Khan
+ Arisha Khan
 
-# Computer Science Student | AI/ML Enthusiast
+ Computer Science Student | AI/ML Enthusiast
