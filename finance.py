@@ -21,7 +21,7 @@ def build_agent():
     return Agent(
         model=Groq(
             id="qwen/qwen3.8-27b",
-            max_tokens=900
+            max_tokens=800
         ),
         tools=[
             YFinanceTools(),
